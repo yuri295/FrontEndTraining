@@ -1,0 +1,9 @@
+div {
+  color: red;
+  font-size: 40px;
+}
+
+td {
+  border: 1px solid pink;
+  padding: 10px;
+}

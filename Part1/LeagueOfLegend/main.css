@@ -1,0 +1,37 @@
+.container {
+}
+.container .champions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.container .champions .champion {
+  width: 80px;
+  height: 84px;
+  margin: 4px;
+  background-color: #555;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.container .champions .champion .coin1 {
+  border: 3px solid gray;
+}
+.container .champions .champion .coin2 {
+  border: 3px solid green;
+}
+.container .champions .champion .coin3 {
+  border: 3px solid blue;
+}
+.container .champions .champion .coin4 {
+  border: 3px solid purple;
+}
+.container .champions .champion .coin5 {
+  border: 3px solid yellow;
+}
+.container .champions .champion .image {
+}
