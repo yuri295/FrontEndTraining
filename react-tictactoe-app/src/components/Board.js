@@ -3,8 +3,7 @@ import Square from './Square';
 import './Board.css';
 
 const Board = () => {
-  const { squares, setSquares } = useState(Array(9).fill(null));
-
+  const [squares, setSquares] = useState(Array(9).fill(null));
   const handleClick = (i) => {
     const newSquares = squares.slice();
     newSquares[i] = 'X';
