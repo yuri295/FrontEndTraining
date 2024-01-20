@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 const categories = [
@@ -55,7 +55,6 @@ const Category = styled(NavLink)`
     color: #496057;
   }
 
-  //카테고리 선택 시 active 스타일 적용
   &.active {
     font-weight: 600;
     border-bottom: 2px solid #22b8cf;
