@@ -16,4 +16,4 @@ const counter = handleActions(
   initialState
 );
 
-export { counter };
+export default counter;
